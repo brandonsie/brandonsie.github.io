@@ -9,7 +9,7 @@ navbar:
     href: papers.html
   right:
   - icon: fa-info fa-lg
-    href: siteinfo.html
+    href: readme.html
 output:
   html_document:
     theme: paper
