@@ -5,7 +5,7 @@ navbar:
   left:
   - text: Projects
     href: projects.html
-  - text: Papers & Talks
+  - text: Publications etc.
     href: papers.html
   right:
   - icon: fa-info fa-lg
