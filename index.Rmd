@@ -4,8 +4,7 @@ output:
 
 ---
 
-
-
+<br> 
 
 <!-- 
 HTML columns: https://stackoverflow.com/questions/31753897/2-column-section-in-r-markdown 
@@ -42,9 +41,10 @@ global cds stylesheet?
 <i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> Johns Hopkins University  
 [<i class="fa fa-fw fa-flask" aria-hidden="true"></i> Larman Lab](http://labs.pathology.jhu.edu/larman/)  
 
-[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github: brandonsie](https://github.com/brandonsie)  
-[<i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin: brandonsie](https://www.linkedin.com/in/brandonsie)  
-[<i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email: brandonsie at gmail](mailto:brandonsie@gmail.com)  
+[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie)  
+[<i class="fa fa-fw fa-file" aria-hidden="true"></i> CV](docs/20181112_CV_BrandonSie.pdf)
+| [<i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin](https://www.linkedin.com/in/brandonsie)
+| [<i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email](mailto:brandonsie@gmail.com)  
 
 
 </div>

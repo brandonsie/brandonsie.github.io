@@ -7,8 +7,6 @@ navbar:
     href: projects.html
   - text: Papers & Talks
     href: papers.html
-  - text: CV
-    href: cv.html
   right:
   - icon: fa-info fa-lg
     href: siteinfo.html

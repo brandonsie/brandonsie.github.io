@@ -1,21 +1,25 @@
 ---
-title: "Projects"
 output:
     html_document:
       toc: true
       toc_float: true
 ---
 
-## EpitopeFinder 
+<br> 
 
-![](https://raw.githubusercontent.com/brandonsie/EpitopeFinder/master/man/EpitopeFindRWorkflow.png)
+## Bioinformatics Tools
 
-R package to BLAST peptide sequences against each other and identify the minimal overlap of aligning regions. [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/EpitopeFinder)]
+### EpitopeFinder 
+R package to BLAST peptide sequences against each other and identify the minimal overlap of aligning regions. [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/EpitopeFinder)]  
+![](https://raw.githubusercontent.com/brandonsie/EpitopeFinder/master/man/EpitopeFindRWorkflow.png)  
 
-## PhIP-Seq
+## Benchwork  
 
-More info.
+### PhIP-Seq  
 
+### CLAmp-Seq  
+
+## Other Code
 
 
 
