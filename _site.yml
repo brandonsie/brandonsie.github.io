@@ -11,10 +11,11 @@ navbar:
     href: cv.html
   right:
   - icon: fa-info fa-lg
-    href: index.html
+    href: siteinfo.html
 output:
   html_document:
     theme: paper
     css: styles.css
     lib_dir: site_libs
     self_contained: no
+
