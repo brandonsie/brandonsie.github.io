@@ -1,9 +1,7 @@
-name: "my-website"
+name: "brandonsie.github.io"
 output_dir: .  # necessary for hosting on GitHub
 navbar:
-  title: "My Website"
+  title: "Brandon Sie"
   left:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html

@@ -1,5 +1,5 @@
 ---
-title: "My Website"
+title: "Brandon Sie"
 ---
 
-Hello, Website!
+(under construction) personal website for Brandon Sie
