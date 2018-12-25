@@ -1,5 +1,36 @@
 ---
 title: "Projects"
+output:
+    html_document:
+      toc: true
+      toc_float: true
 ---
 
+## EpitopeFinder 
+
+![](https://raw.githubusercontent.com/brandonsie/EpitopeFinder/master/man/EpitopeFindRWorkflow.png)
+
+R package to BLAST peptide sequences against each other and identify the minimal overlap of aligning regions. [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/EpitopeFinder)]
+
+## PhIP-Seq
+
 More info.
+
+
+
+
+<!-- 
+Make basic single-sentence summary on this page, link to more detail
+
+epitopefinder
+phip-reporter
+stock vis
+quantstudio tools
+
+phip seq
+clamp seq
+
+
+text prediction 
+-->
+

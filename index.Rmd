@@ -1,7 +1,49 @@
 ---
-title: "Brandon Sie"
+output:
+    html_document
+
 ---
 
+
+
+
+<!-- HTML columns: https://stackoverflow.com/questions/31753897/2-column-section-in-r-markdown -->
+<!-- keep left column visible? https://stackoverflow.com/questions/1312236/how-do-i-create-an-html-table-with-fixed-frozen-left-column-and-scrollable-body -->
+
+<style>
+.column-left{
+  float: left;
+  width: 33%;
+  text-align: left;
+  position: absolute;
+}
+.column-right{
+  float: right;
+  width: 67%;
+  text-align: left;
+}
+</style>
+
+
+<div class="column-left">
+
+# Brandon Sie
+
+<i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Baltimore, Maryland  
+<i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> Johns Hopkins University  
+[<i class="fa fa-fw fa-flask" aria-hidden="true"></i> Larman Lab](http://labs.pathology.jhu.edu/larman/)  
+
+[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github: brandonsie](https://github.com/brandonsie)  
+[<i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin: brandonsie](https://www.linkedin.com/in/brandonsie)  
+
+[<i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Contact](contact.html)  
+
+
+</div>
+
+<div class="column-right">
+
+<br><br><br><br><br>
 (under construction) personal website for Brandon Sie
 
-[Larman Lab](http://labs.pathology.jhu.edu/larman/)
+</div>

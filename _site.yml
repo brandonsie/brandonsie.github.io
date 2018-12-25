@@ -1,23 +1,20 @@
-name: "brandonsie.github.io"
-output_dir: .  # necessary for hosting on GitHub
+name: brandonsie.github.io
+output_dir: .na.real
 navbar:
-  title: "Brandon Sie"
+  title: Brandon Sie
   left:
-    - text: "Projects"
-      href: projects.html
-    - text: "Papers & Talks"
-      href: papers.html
-    - text: "CV"
-      href: cv.html
+  - text: Projects
+    href: projects.html
+  - text: Papers & Talks
+    href: papers.html
+  - text: CV
+    href: cv.html
   right:
-    - icon: fa-envelope fa-lg
-      href: contact.html
-    - icon: fa-github fa-lg
-      href: https://github.com/brandonsie
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/brandonsie
+  - icon: fa-info fa-lg
+    href: index.html
 output:
   html_document:
     theme: paper
-    css: 'styles.css'
-
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
