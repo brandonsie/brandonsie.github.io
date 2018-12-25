@@ -1,0 +1,17 @@
+---
+pagetitle: Brandon Sie
+output:
+    html_document:
+      toc: true
+      toc_float: true
+---
+
+<br> 
+
+## Publications
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=FpNLPEkAAAAJ&view_op=list_works&gmla=AJsN-F7VxtyziSbZZVjCriLH57_B99PW4KgNmajr8WWYBoOCAk_nJZ6hW1m4ZH1NxpqFrS6dJnKTAjlT6U4GNuekZfsWqJJeBOdnCSwQ3SD7DoBplqaP5tqWiETZY95NFr5kQdYuD9s8qsJPrfoWGT5gk4eN5r2Nzw)
+
+## Talks
+
+## Posters & Abstracts
