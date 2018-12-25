@@ -6,4 +6,4 @@ output:
       toc_float: true
 ---
 
-More info.
+[CV](docs/20181112_CV_BrandonSie.pdf)
