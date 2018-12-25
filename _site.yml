@@ -1,4 +1,5 @@
 name: "my-website"
+output_dir: .  # necessary for hosting on GitHub
 navbar:
   title: "My Website"
   left:
