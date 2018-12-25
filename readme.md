@@ -1,3 +1,8 @@
+---
+pagetitle: Brandon Sie
+output:
+    html_document
+---
 
 
 [brandonsie.github.io](https://brandonsie.github.io)

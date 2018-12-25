@@ -10,7 +10,8 @@ output:
 
 ## Publications
 
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=FpNLPEkAAAAJ&view_op=list_works&gmla=AJsN-F7VxtyziSbZZVjCriLH57_B99PW4KgNmajr8WWYBoOCAk_nJZ6hW1m4ZH1NxpqFrS6dJnKTAjlT6U4GNuekZfsWqJJeBOdnCSwQ3SD7DoBplqaP5tqWiETZY95NFr5kQdYuD9s8qsJPrfoWGT5gk4eN5r2Nzw)
+
+[[<i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar](https://scholar.google.com/citations?hl=en&user=FpNLPEkAAAAJ&view_op=list_works&gmla=AJsN-F7VxtyziSbZZVjCriLH57_B99PW4KgNmajr8WWYBoOCAk_nJZ6hW1m4ZH1NxpqFrS6dJnKTAjlT6U4GNuekZfsWqJJeBOdnCSwQ3SD7DoBplqaP5tqWiETZY95NFr5kQdYuD9s8qsJPrfoWGT5gk4eN5r2Nzw)]
 
 ## Talks
 
