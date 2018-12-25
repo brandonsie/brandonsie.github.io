@@ -3,5 +3,21 @@ output_dir: .  # necessary for hosting on GitHub
 navbar:
   title: "Brandon Sie"
   left:
-    - text: "About"
-      href: about.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Papers & Talks"
+      href: papers.html
+    - text: "CV"
+      href: cv.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: https://github.com/brandonsie
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/brandonsie
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
+
