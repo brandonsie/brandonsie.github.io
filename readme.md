@@ -1,9 +1,6 @@
 ---
-pagetitle: Brandon Sie
-output:
-    html_document
+title: README.md
 ---
-
 
 [brandonsie.github.io](https://brandonsie.github.io)
 

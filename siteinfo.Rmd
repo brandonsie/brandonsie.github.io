@@ -1,5 +1,7 @@
 ---
 pagetitle: Brandon Sie
+output:
+    html_document
 ---
 
 <br>
