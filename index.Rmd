@@ -37,7 +37,6 @@ output:
 
 ## Brandon Sie
 
-
 <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Baltimore, Maryland  
 <i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> Johns Hopkins University  
 [<i class="fa fa-fw fa-flask" aria-hidden="true"></i> Larman Lab](http://labs.pathology.jhu.edu/larman/) 
@@ -54,7 +53,6 @@ output:
 
 <!-- <div class="column-right"> -->
 
-<br><br><br>
 I am a research specialist in the lab of H. Benjamin Larman at Johns Hopkins University School of Medicine. My job allows me to develop high-throughput, massively multiplexed immune profiling assays and to design bioinformatics software for related data analyses.
 
 I graduated from the University of California, Berkeley with a BS in bioengineering in 2015. Before joining the Larman Lab, I worked as an ORISE research fellow at the Food and Drug Administration.
