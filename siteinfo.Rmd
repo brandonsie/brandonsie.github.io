@@ -1,5 +1,9 @@
 ---
 pagetitle: Brandon Sie
+output:
+    html_document:
+      theme: sandstone
+
 ---
 
 <br>
