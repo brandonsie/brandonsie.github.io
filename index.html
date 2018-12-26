@@ -207,33 +207,29 @@ $(document).ready(function () {
 
 
 <p><br></p>
-<!-- 
-HTML columns: https://stackoverflow.com/questions/31753897/2-column-section-in-r-markdown 
-
-
-keep left column visible? https://stackoverflow.com/questions/1312236/how-do-i-create-an-html-table-with-fixed-frozen-left-column-and-scrollable-body 
-
-directory: move non-index pages to subdirectory?
-
-global cds stylesheet?
-
--->
 <style>
 .column-left{
   float: left;
   width: 33%;
+  max-width: 250px;
   text-align: left;
-  position: absolute;
+  position: fixed;
+  
+}
+.column-left img {
+  max-width: 100%;
+  max-height: 100%;
 }
 .column-right{
   float: right;
-  width: 67%;
+  max-width: 67%;
   text-align: left;
 }
+
 </style>
 <div class="column-left">
-<p><img src="docs/brandon1.png" style="width:33.0%" /></p>
-<h1 id="brandon-sie">Brandon Sie</h1>
+<p><img src="docs/brandon1.png"></p>
+<h2 id="brandon-sie">Brandon Sie</h2>
 <p><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Baltimore, Maryland<br />
 <i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> Johns Hopkins University<br />
 <a href="http://labs.pathology.jhu.edu/larman/"><i class="fa fa-fw fa-flask" aria-hidden="true"></i> Larman Lab</a></p>

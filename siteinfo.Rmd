@@ -8,4 +8,5 @@ pagetitle: Brandon Sie
 
 This website was written in [R Markdown](https://rmarkdown.rstudio.com/) 
 and hosted on [Github Pages](https://pages.github.com/). The code is available 
-at [Github/brandonsie](https://github.com/brandonsie/brandonsie.github.io)
+on [Github](https://github.com/brandonsie/brandonsie.github.io). 
+
