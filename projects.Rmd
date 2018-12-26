@@ -26,7 +26,7 @@ Phage Immunoprecipitation Sequencing. High-throughput massively-multiplexed anti
 
 ### CLAmp-Seq  
 
-Capture Ligation Amplification Sequencing. Solution-phage adaptation of probe-based nucleic acid detection from Ligation in situ Hybridization [[<i class="fa fa-fw fa-file" aria-hidden="true"></i> Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/28854731)]. Currently in active development.
+Capture Ligation Amplification Sequencing. Solution-phase probe-based nucleic acid detection, adaptated from Ligation in situ Hybridization [[<i class="fa fa-fw fa-file" aria-hidden="true"></i> Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/28854731)]. Currently in active development.
 
 ## Other Code
 
