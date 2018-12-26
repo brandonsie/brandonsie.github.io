@@ -55,7 +55,7 @@ output:
 <!-- <div class="column-right"> -->
 
 <br><br><br>
-I am a research specialist in the lab of H. Benjamin Larman at Johns Hopkins University School of Medicine. My job allows me to develop high-throughput, massively multiplexed immune profiling assays and to design bioinformatics software for related data analysis.
+I am a research specialist in the lab of H. Benjamin Larman at Johns Hopkins University School of Medicine. My job allows me to develop high-throughput, massively multiplexed immune profiling assays and to design bioinformatics software for related data analyses.
 
 I graduated from the University of California, Berkeley with a BS in bioengineering in 2015. Before joining the Larman Lab, I worked as an ORISE research fellow at the Food and Drug Administration.
 
