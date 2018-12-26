@@ -5,8 +5,6 @@ navbar:
   left:
   - text: Projects
     href: projects.html
-  - text: Publications etc.
-    href: papers.html
   right:
   - icon: fa-info fa-lg
     href: siteinfo.html
