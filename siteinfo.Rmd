@@ -6,7 +6,8 @@ pagetitle: Brandon Sie
 
 ## Site Info
 
-This website was written in [R Markdown](https://rmarkdown.rstudio.com/) 
+This (under construction) website is being written in 
+[R Markdown](https://rmarkdown.rstudio.com/) 
 and hosted on [Github Pages](https://pages.github.com/). The code is available 
 on [Github](https://github.com/brandonsie/brandonsie.github.io). 
 
