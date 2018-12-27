@@ -21,7 +21,7 @@ output:
 </div></div>
 
 <div class="proj-container"><img src="docs/phip-logo.png" alt="PhIP-Seq" class="proj-image">
-<div class="proj-overlay"><div class="proj-text"><h3>PhIP-Seq</h3>Phage Immunoprecipitation Sequencing. High-throughput massively-multiplexed antibody profiling and biomarker discovery based on [phage display](https://www.nobelprize.org/prizes/chemistry/2018/press-release/) of synthetic peptidomes [[<i class="fa fa-fw fa-file" aria-hidden="true"></i> Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30190553)].</div>
+<div class="proj-overlay"><div class="proj-text"><h3>PhIP-Seq</h3> Phage Immunoprecipitation Sequencing. High-throughput massively-multiplexed antibody profiling and biomarker discovery based on [phage display](https://www.nobelprize.org/prizes/chemistry/2018/press-release/) of synthetic peptidomes [[<i class="fa fa-fw fa-file" aria-hidden="true"></i> Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30190553)].</div>
 </div></div>
 
 
