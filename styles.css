@@ -132,7 +132,10 @@ h3{
 
 .proj-container:hover .proj-overlay {
   opacity: 1;
+}
 
+.proj-container:focus .proj-overlay {
+  opacity: 1;
 }
 
 .proj-text {
