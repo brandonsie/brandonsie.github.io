@@ -38,7 +38,8 @@ a{
 /* pictures */ 
 .profpic1{
   width: auto;
-  height: 300px;
+  height: auto;
+  max-height: 300px;
   max-width: 30vw;  
   display: block;
   margin-left: auto;
