@@ -21,7 +21,7 @@ output:
 | [<i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin](https://www.linkedin.com/in/brandonsie)
 | [<i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email](mailto:brandonsie@gmail.com)  
 
-<br><br> 
+<hr>
 
 I am a research specialist in the lab of H. Benjamin Larman at Johns Hopkins University School of Medicine. My job gives me the opportunity to develop high-throughput, massively multiplexed immune profiling assays and to design bioinformatics software for related data analyses.
 
