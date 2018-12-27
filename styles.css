@@ -142,24 +142,21 @@ h3{
 
 .proj-text {
   color: black;
-  font-size: 12px;
+  font-size: 0px;
   position: absolute;
   text-align: center;
-  height: 0%;
 }
 
-.proj-container:hover proj-text {
+.proj-container:hover .proj-text {
   color: black;
   font-size: 12px;
   position: absolute;
   text-align: center;
-  height: 100%;
 }
 
-.proj-container:hover proj-text {
+.proj-container:hover .proj-text {
   color: black;
   font-size: 12px;
   position: absolute;
   text-align: center;
-  height: 100%;
 }
