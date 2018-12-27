@@ -9,6 +9,7 @@ output:
 
 <a class="anchor" id="siteinfo"></a>
 
+<br>  
 # Site Info  
 
 This (under construction) website is being written in 
