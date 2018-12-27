@@ -38,14 +38,17 @@ p.name{
 h1{
   font-size: 25px;
   font-weight: bold;
+  padding-top: 20px;
 }
 
 h2{
   font-size: 20px;
   font-weight: bold;
+  padding-top: 15px;
 }
 
 h3{
   font-size: 15px;
   font-weight: bold;
+  padding-top: 10px;
 }
