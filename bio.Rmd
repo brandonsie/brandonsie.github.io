@@ -7,10 +7,13 @@ output:
 ---
 
 <a class="anchor" id="bio"></a>
-<div class = "row" align = "center">
+<div class = "row">
 
-<img class = "profpic" src="docs/brandon2.png" >
+<div class = "col-sm-3">
 
+<img class = "profpic1" src="docs/brandon1.png">
+</div>
+<div class = "col-sm-9">
 
 <p class = "name">Brandon Sie</p>
 
@@ -25,10 +28,8 @@ output:
 | [<i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin](https://www.linkedin.com/in/brandonsie)
 | [<i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email](mailto:brandonsie@gmail.com)  
 
-</div>
-<div class = "row">
 
-<br><hr><br>
+<hr>
 
 I am a research specialist in the lab of H. Benjamin Larman at Johns Hopkins University School of Medicine. My job gives me the opportunity to develop high-throughput, massively multiplexed immune profiling assays and to design bioinformatics software for related data analyses.
 
