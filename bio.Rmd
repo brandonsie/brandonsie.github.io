@@ -16,7 +16,7 @@ output:
 
 
 [<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie) 
-| [<i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar](https://scholar.google.com/citations?hl=en&user=FpNLPEkAAAAJ&view_op=list_works&gmla=AJsN-F7VxtyziSbZZVjCriLH57_B99PW4KgNmajr8WWYBoOCAk_nJZ6hW1m4ZH1NxpqFrS6dJnKTAjlT6U4GNuekZfsWqJJeBOdnCSwQ3SD7DoBplqaP5tqWiETZY95NFr5kQdYuD9s8qsJPrfoWGT5gk4eN5r2Nzw)  
+| [<i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar](https://scholar.google.com/citations?user=FpNLPEkAAAAJ&hl=en)  
 [<i class="fa fa-fw fa-file" aria-hidden="true"></i> CV](docs/20181112_CV_BrandonSie.pdf)
 | [<i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin](https://www.linkedin.com/in/brandonsie)
 | [<i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email](mailto:brandonsie@gmail.com)  

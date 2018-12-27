@@ -11,7 +11,7 @@ output:
 
 <div class = "proj">
 
-# Projects
+<h1>Projects</h1>
 
 <p class = "caption">Here are some of the things that I am currently working on. <p>
 
