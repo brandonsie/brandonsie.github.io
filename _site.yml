@@ -2,15 +2,20 @@ name: brandonsie.github.io
 output_dir: "."
 navbar:
   title: Brandon Sie
+  href: "#bio"
   left:
   - text: Projects
-    href: projects.html
+    href: "#projects"
+  - text: Site Info
+    href: "#siteinfo"
   right:
   - icon: fa-info fa-lg
-    href: siteinfo.html
+    href: "#siteinfo"
 output:
   html_document:
     theme: paper
     css: styles.css
     lib_dir: site_libs
     self_contained: no
+
+
