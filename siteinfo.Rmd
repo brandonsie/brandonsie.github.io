@@ -11,7 +11,7 @@ output:
 
 <br>  
 
-# Site Info  
+<h1>Site Info</h1>  
 
 This (under construction) website is being written in 
 [R Markdown](https://rmarkdown.rstudio.com/) 
