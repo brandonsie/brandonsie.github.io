@@ -13,14 +13,15 @@ output:
 
 <div class = "proj" align = "center" style = "height: 100vh;">
 
-<h1>Selected Projects</h1>
-  
+<div class="proj-container"><div class = "proj-overlay"  style = "opacity: 1;"><div class = proj-text" style = "vertical-align: center;"><h1>Selected<br>Projects</h1> Some of the things that I'm currently working on.</div></div></div>
+
+
 <div class="proj-container"><img src="docs/epf-logo2.png" alt="EpitopeFinder" class="proj-image">
-<div class="proj-overlay"><div class="proj-text"><h3>EpitopeFinder</h3> R package to BLAST peptide sequences against each other and identify the minimal overlap of aligning regions. [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/EpitopeFinder)]</div>
+<div class="proj-overlay"><div class="proj-text"><h3>EpitopeFinder</h3> R package to BLAST peptide sequences against each other and identify the minimal overlap of aligning regions [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/EpitopeFinder)].</div>
 </div></div>
 
 <div class="proj-container"><img src="docs/phip-logo.png" alt="PhIP-Seq" class="proj-image">
-<div class="proj-overlay"><div class="proj-text"><h3>PhIP-Seq</h3>Phage Immunoprecipitation Sequencing. High-throughput massively-multiplexed antibody profiling and biomarker discovery based on [phage display](https://www.nobelprize.org/prizes/chemistry/2018/press-release/) of synthetic peptidomes. [[<i class="fa fa-fw fa-file" aria-hidden="true"></i> Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30190553)]</div>
+<div class="proj-overlay"><div class="proj-text"><h3>PhIP-Seq</h3>Phage Immunoprecipitation Sequencing. High-throughput massively-multiplexed antibody profiling and biomarker discovery based on [phage display](https://www.nobelprize.org/prizes/chemistry/2018/press-release/) of synthetic peptidomes [[<i class="fa fa-fw fa-file" aria-hidden="true"></i> Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30190553)].</div>
 </div></div>
 
 
