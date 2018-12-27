@@ -6,6 +6,8 @@ output:
       css: styles.css
 ---
 
+<a class="anchor" id="bio"></a>
+
 <p class = "name">Brandon Sie</p>
 
 <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Baltimore, Maryland  
