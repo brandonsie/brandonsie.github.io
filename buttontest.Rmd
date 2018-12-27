@@ -1,0 +1,69 @@
+
+
+<style>
+  .proj-container {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+  }
+
+.proj-image {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.proj-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(240,240,240,0.8);
+}
+
+.proj-container:hover .proj-overlay {
+  opacity: 1;
+}
+
+.proj-text {
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+
+<div align = "center">
+  
+<div class="proj-container">
+<img src="docs/epf-logo.png" alt="EpitopeFinder" class="proj-image">
+<a href = "https://github.com/brandonsie/epitopefinder"><div class="proj-overlay">
+<div class="proj-text"><i class = "fa fa-search"></i><br>EpitopeFinder</div>
+</div></a>
+</div>
+
+<div class="proj-container">
+<img src="docs/phip-logo.png" alt="PhIP-Seq" class="proj-image">
+<a href = "https://www.ncbi.nlm.nih.gov/pubmed/30190553"><div class="proj-overlay">
+<div class="proj-text"><i class = "fa fa-search"></i><br>PhIP-Seq</div>
+</div></a>
+</div>
+
+<div class="proj-container">
+<img src="docs/qstools-logo.png" alt="CLAmp-Seq" class="proj-image">
+<a href = "https://www.ncbi.nlm.nih.gov/pubmed/30190553"><div class="proj-overlay">
+<div class="proj-text"><i class = "fa fa-search"></i><br>CLAmp-Seq</div>
+</div></a>
+</div>
+  
+</div>

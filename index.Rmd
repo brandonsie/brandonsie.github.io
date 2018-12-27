@@ -12,10 +12,8 @@ output:
 <link href="styles.css" rel="stylesheet">
 
 
-<div class = "biop" w3-include-html="bio.html"></div>
-
+<div class = "row" w3-include-html="bio.html"></div>
 <div class = "row" w3-include-html="projects.html"></div>  
-
 <div class = "row" id = "siteinfo" w3-include-html="siteinfo.html"></div>  
 
 

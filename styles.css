@@ -11,10 +11,12 @@ a.anchor {
     visibility: hidden;
 }
 
+a{
+  color: rgb(11,0,128);
+}
+
 /* div */
 
-.proj {
-}
 
 .biop{
   background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9));
@@ -25,7 +27,7 @@ a.anchor {
 
 }
 .siteinfo{
-  padding-bottom: 70vh !important;
+  /*padding-bottom: 70vh !important;*/
   background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("docs/grandteton.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -35,8 +37,8 @@ a.anchor {
 
 /* pictures */ 
 .profpic1{
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 300px;
   max-width: 30vw;  
   display: block;
   margin-left: auto;
@@ -55,14 +57,6 @@ a.anchor {
 
 }
 
-.projimg{
-  max-height: 500px;
-  width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
 
 /* horizontal rule  divider*/
 hr { 
@@ -99,3 +93,50 @@ h3{
   font-weight: bold;
   padding-top: 10px;
 }
+
+
+/* project images */
+
+
+.proj-container {
+    position: relative;
+    height:200px;
+    display: inline-block;
+}
+
+.proj-image {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.proj-container:hover .proj.image {
+    webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+    filter: blur(10px);
+}
+
+.proj-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(240,240,240,0.9);
+}
+
+.proj-container:hover .proj-overlay {
+  opacity: 1;
+
+}
+
+.proj-text {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  text-align: center;
+}
+
