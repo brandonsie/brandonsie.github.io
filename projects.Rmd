@@ -24,7 +24,7 @@ output:
 
 # Projects
 
-Here are some of the things that I am currently working on. 
+<p class = "caption">Here are some of the things that I am currently working on. <p>
 
 ## Bioinformatics Tools
 

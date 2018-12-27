@@ -2,8 +2,9 @@ name: brandonsie.github.io
 output_dir: "."
 navbar:
   title: Brandon Sie
-  href: "#bio"
   left:
+  - text: Bio
+    href: "#bio"
   - text: Projects
     href: "#projects"
   - text: Site Info

@@ -282,6 +282,9 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
+  <a href="#bio">Bio</a>
+</li>
+<li>
   <a href="#projects">Projects</a>
 </li>
 <li>
@@ -310,8 +313,10 @@ $(document).ready(function () {
 
 <p><br></p>
 <script src="includeHTML.js"></script>
-<script src="JQuerySmoothScroll.js"></script>
 <style>
+html {
+  scroll-behavior: smooth;
+}
 
 .profpic{
   width: 100%;
@@ -325,16 +330,22 @@ p.name{
 }
 
 h1{
-  text-align: center;
+  <!-- text-align: center; -->
+}
+
+p.caption{
+  <!-- text-align:center; -->
 }
 
 
 </style>
-<div class="row">
+<div id="bio" class="row">
+<br><br><br><br><br />
+
 <div class="col-sm-3">
 <img class = "profpic" src="docs/brandon1.png" >
 </div>
-<div id="bio" class="col-sm-9" w3-include-html="bio.html">
+<div class="col-sm-9" w3-include-html="bio.html">
 
 </div>
 </div>

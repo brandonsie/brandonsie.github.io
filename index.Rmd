@@ -9,12 +9,12 @@ output:
 <br> 
 
 <script src="includeHTML.js"></script>
-<script src="JQuerySmoothScroll.js"></script>
-
-
 
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 
 .profpic{
   width: 100%;
@@ -28,15 +28,19 @@ p.name{
 }
 
 h1{
-  text-align: center;
+  <!-- text-align: center; -->
+}
+
+p.caption{
+  <!-- text-align:center; -->
 }
 
 
 </style>
 
-<div class = "row">  
+<div class = "row" id = "bio"><br><br><br><br>  
 <div class = "col-sm-3"><img class = "profpic" src="docs/brandon1.png" ></div>  
-<div class = "col-sm-9" id = "bio" w3-include-html="bio.html"></div>  
+<div class = "col-sm-9" w3-include-html="bio.html"></div>  
 </div> <!-- end of Bio row -->
 
 <div class = "row" id = "projects" w3-include-html="projects.html"></div>  
