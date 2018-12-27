@@ -313,17 +313,7 @@ $(document).ready(function () {
 
 <p><br></p>
 <script src="includeHTML.js"></script>
-<script>
-if ('scrollRestoration' in history) {
-  history.scrollRestoration = 'manual';
-}
-//Listen for unload event. This is triggered when leaving the page.
-//Reference: https://developer.mozilla.org/en-US/docs/Web/Events/unload
-window.addEventListener('unload', function(e) {
-    //set scroll position to the top of the page.
-    window.scrollTo(0, 0);
-});
-</script>
+<script src="unloadscroll.js"></script>
 <div class="row">
 <div class="col-sm-3">
 <img class = "profpic" src="docs/brandon1.png" >
@@ -332,16 +322,13 @@ window.addEventListener('unload', function(e) {
 
 </div>
 </div>
-<p><!-- end of Bio row --></p>
 <div class="row" w3-include-html="projects.html">
 
 </div>
 <div id="siteinfo" class="row" w3-include-html="siteinfo.html">
 
 </div>
-<script>
-includeHTML();
-</script>
+<script>includeHTML();</script>
 
 
 

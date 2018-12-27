@@ -21,8 +21,7 @@ a.anchor {
 }
 
 .projimg{
-  height: 500px;
-  max-height: 80vh;
+  max-height: 500px;
   width: auto;
   display: block;
   margin-left: auto;
@@ -30,15 +29,16 @@ a.anchor {
   
 }
 
-p.name{
+/* Bio name text */
+p.name{ 
   font-size: 25px;
   font-weight: bold;
 }
 
 h1{
-  <!-- text-align: center; -->
+  
 }
 
-p.caption{
-  <!-- text-align:center; -->
+h2{
+  
 }

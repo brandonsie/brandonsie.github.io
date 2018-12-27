@@ -14,17 +14,15 @@ output:
 
 
 <div class = "row">
-<div class = "col-sm-3"><img class = "profpic" src="docs/brandon1.png" ></div>  
-<div class = "col-sm-9" w3-include-html="bio.html"></div>  
-</div> <!-- end of Bio row -->
+  <div class = "col-sm-3"><img class = "profpic" src="docs/brandon1.png" ></div>  
+  <div class = "col-sm-9" w3-include-html="bio.html"></div>  
+</div>
 
 <div class = "row" w3-include-html="projects.html"></div>  
 
 <div class = "row" id = "siteinfo" w3-include-html="siteinfo.html"></div>  
 
 
-<script>
-includeHTML();
-</script>
+<script>includeHTML();</script>
 
 
