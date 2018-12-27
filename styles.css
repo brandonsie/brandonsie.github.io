@@ -123,7 +123,7 @@ h3{
   bottom: 0;
   left: 0;
   right: 0;
-  height: k0%;
+  height: 0%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -132,10 +132,12 @@ h3{
 
 .proj-container:hover .proj-overlay {
   opacity: 1;
+  height: 100%;
 }
 
 .proj-container:focus .proj-overlay {
   opacity: 1;
+  height: 100%;
 }
 
 .proj-text {
