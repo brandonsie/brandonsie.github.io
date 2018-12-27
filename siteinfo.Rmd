@@ -10,7 +10,7 @@ output:
 
 <a class="anchor" id="siteinfo"></a>  
 
-<div style = "padding-bottom: 70vh !important;">  
+<div class = "siteinfo">  
 <h1>Site Info</h1>  
 
 This (under construction) website is being written in 
