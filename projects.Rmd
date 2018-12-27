@@ -13,9 +13,7 @@ output:
 
 <div class = "proj">
 
-<h1>Projects</h1>
-
-<p class = "caption">Here are some of the things that I am currently working on. <p>
+<h1>Selected Projects</h1>
 
 <h2>Bioinformatics Tools</h2>
 
