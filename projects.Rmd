@@ -3,21 +3,10 @@ pagetitle: Brandon Sie
 output:
     html_document:
       theme: sandstone
+      css: styles.css
 ---
 
-<style>
-.projimg{
-  height: 500px;
-  max-height: 80vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-</style>
-
-<br><br><br><br> 
+<a class="anchor" id="projects"></a>
 
 
 <div class = "proj">

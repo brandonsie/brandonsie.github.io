@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+
+.profpic{
+  width: 100%;
+  height: auto;
+  max-width: 30vw;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.projimg{
+  height: 500px;
+  max-height: 80vh;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+p.name{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h1{
+  <!-- text-align: center; -->
+}
+
+p.caption{
+  <!-- text-align:center; -->
+}

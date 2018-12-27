@@ -3,6 +3,7 @@ pagetitle: Brandon Sie
 output:
     html_document:
       theme: sandstone
+      css: styles.css
 ---
 
 <p class = "name">Brandon Sie</p>

@@ -3,10 +3,11 @@ pagetitle: Brandon Sie
 output:
     html_document:
       theme: sandstone
+      css: styles.css
 
 ---
 
-<br><br><br><br>
+<a class="anchor" id="siteinfo"></a>
 
 # Site Info  
 
