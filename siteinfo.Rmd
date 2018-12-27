@@ -9,12 +9,12 @@ output:
 <br>  
 
 <a class="anchor" id="siteinfo"></a>  
-  
+
+<div style = "padding-bottom: 70vh !important;">  
 <h1>Site Info</h1>  
 
 This (under construction) website is being written in 
 [R Markdown](https://rmarkdown.rstudio.com/) 
 and hosted on [Github Pages](https://pages.github.com/). The code is available 
 on [Github](https://github.com/brandonsie/brandonsie.github.io). 
-
-<br>  
+</div>
