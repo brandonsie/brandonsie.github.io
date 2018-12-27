@@ -10,7 +10,7 @@ output:
 
 <a class="anchor" id="siteinfo"></a>  
 
-<div class = "siteinfo" align = "center" style = "height: 80vh;">  
+<div class = "siteinfo" align = "center" style = "min-height: 80vh;">  
 <h1>Site Info</h1>  
 
 This (under construction) website is being written in 

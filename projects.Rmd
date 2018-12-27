@@ -11,7 +11,7 @@ output:
 <a class="anchor" id="projects"></a>
 
 
-<div class = "proj" align = "center" style = "height: 100vh;">
+<div class = "proj" align = "center" style = "min-height: 100vh;">
 
 <div class="proj-container"><div class = "proj-overlay"  style = "opacity: 1;"><div class = proj-text" style = "vertical-align: center;"><h1>Selected<br>Projects</h1> Some of the things that I'm currently working on. Mouseover for more information.</div></div></div>
 
