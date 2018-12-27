@@ -11,7 +11,7 @@ output:
 <a class="anchor" id="projects"></a>
 
 
-<div class = "proj" align = "center">
+<div class = "proj" align = "center" style = "height: 100vh;">
 
 <h1>Selected Projects</h1>
   
