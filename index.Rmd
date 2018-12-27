@@ -7,8 +7,6 @@ output:
 
 ---
 
-<br> 
-
 <script src="includeHTML.js"></script>
 <script src="unloadscroll.js"></script>
 
