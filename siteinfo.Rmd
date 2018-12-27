@@ -6,9 +6,9 @@ output:
 
 ---
 
-<br>
+<br><br><br><br>
 
-## Site Info
+# Site Info  
 
 This (under construction) website is being written in 
 [R Markdown](https://rmarkdown.rstudio.com/) 

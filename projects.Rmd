@@ -3,36 +3,45 @@ pagetitle: Brandon Sie
 output:
     html_document:
       theme: sandstone
-      toc: true
-      toc_float: true
 ---
 
-<br> 
+<style>
+.projimg{
+  height: 500px;
+  max-height: 80vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 
-## Bioinformatics Tools
+</style>
 
-### EpitopeFinder 
-R package to BLAST peptide sequences against each other and identify the minimal overlap of aligning regions. [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/EpitopeFinder)]  
-![](https://raw.githubusercontent.com/brandonsie/EpitopeFinder/master/man/EpitopeFindRWorkflow.png)  
+<br><br><br><br> 
 
-### QuantStudioTools
 
-## Assay Development
+<div class = "proj">
 
-### PhIP-Seq  
+# Bioinformatics Tools
+
+## EpitopeFinder 
+R package to BLAST peptide sequences against each other and identify the minimal overlap of aligning regions. [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/EpitopeFinder)] 
+
+<img class = "projimg" src = "docs/epitopefinder-full.png">
+
+# Assay Development
+
+## PhIP-Seq  
 
 Phage Immunoprecipitation Sequencing. High-throughput massively-multiplexed antibody profiling and biomarker discovery based on [phage display](https://www.nobelprize.org/prizes/chemistry/2018/press-release/) of synthetic peptidomes. [[<i class="fa fa-fw fa-file" aria-hidden="true"></i> Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30190553)]
 
-![](docs/phip.png)
+<img class = "projimg" src = "docs/phip.png">
 
-### CLAmp-Seq  
+## CLAmp-Seq  
 
 Capture Ligation Amplification Sequencing. Solution-phase probe-based nucleic acid detection, adaptated from Ligation in situ Hybridization [[<i class="fa fa-fw fa-file" aria-hidden="true"></i> Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/28854731)]. Currently in active development.
 
-## Other Code
-
-
-
+</div>
 <!-- 
 Make basic single-sentence summary on this page, link to more detail
 
