@@ -6,11 +6,10 @@ output:
       css: styles.css
 
 ---
-
-<a class="anchor" id="siteinfo"></a>
-
 <br>  
 
+<a class="anchor" id="siteinfo"></a>  
+  
 <h1>Site Info</h1>  
 
 This (under construction) website is being written in 
@@ -18,3 +17,4 @@ This (under construction) website is being written in
 and hosted on [Github Pages](https://pages.github.com/). The code is available 
 on [Github](https://github.com/brandonsie/brandonsie.github.io). 
 
+<br>  
