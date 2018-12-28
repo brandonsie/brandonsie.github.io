@@ -13,16 +13,8 @@ a{
   color: rgb(11,0,128);
 }
 
-/* div */
+/* div background images */
 
-.biop{
-  background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9));
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100%;
-
-}
 .siteinfo{
   /*padding-bottom: 70vh !important;*/
   background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("docs/grandteton.jpg");
@@ -68,7 +60,7 @@ hr {
 }
 
 
-/* Bio name text */
+/* Text */
 p.name{ 
   font-size: 25px;
   font-weight: bold;
