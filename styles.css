@@ -2,8 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 a.anchor {
     display: block;
     position: relative;
@@ -16,7 +14,6 @@ a{
 }
 
 /* div */
-
 
 .biop{
   background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9));
