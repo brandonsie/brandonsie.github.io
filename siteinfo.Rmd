@@ -15,4 +15,5 @@ output:
 
 © Brandon Sie 2018. Source code is available 
 on [Github](https://github.com/brandonsie/brandonsie.github.io). 
+<br>
 </div>
