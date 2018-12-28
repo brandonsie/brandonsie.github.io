@@ -13,7 +13,7 @@ output:
 <div class = "siteinfo" align = "center" style = "min-height: 80vh;">  
 <h1>Site Info</h1>  
 
-© Brandon Sie 2018. Source code is available 
+&copy; Brandon Sie 2018. Source code is available 
 on [Github](https://github.com/brandonsie/brandonsie.github.io). 
 <br>
 </div>
