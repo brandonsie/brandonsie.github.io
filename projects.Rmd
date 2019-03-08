@@ -15,11 +15,14 @@ output:
 
 <div class = "proj" align = "center" style = "min-height: 100vh;">
 
-<div class="proj-container"><div class = "proj-overlay"  style = "opacity: 1;"><div class = proj-text" style = "vertical-align: center;"><h1>Selected<br>Projects</h1> Some of the things that I'm currently working on. Mouseover for more information.</div></div></div>
+<!-- <div class="proj-container"><div class = "proj-overlay"  style = "opacity: 1;"><div class = proj-text" style = "vertical-align: center;"><h1>Selected<br>Projects</h1> Some of the things that I'm currently working on. Mouseover for more information.</div></div></div> -->
+
+## Selected Projects
+Some of the things I'm currently working on. Mouseover for more information.
 
 
-<div class="proj-container"><img src="docs/epf-logo2.png" alt="EpitopeFinder" class="proj-image">
-<div class="proj-overlay"><div class="proj-text"><h3>EpitopeFinder</h3> R package to BLAST peptide sequences against each other and identify the minimal overlap of aligning regions [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/EpitopeFinder)].</div>
+<div class="proj-container"><img src="docs/epf-logo2.png" alt="epitopefindr" class="proj-image">
+<div class="proj-overlay"><div class="proj-text"><h3>epitopefindr</h3> R package to BLAST peptide sequences against each other and identify the minimal overlap of aligning regions [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/epitopefindr)].</div>
 </div></div>
 
 <div class="proj-container"><img src="docs/phip-logo.png" alt="PhIP-Seq" class="proj-image">
@@ -31,5 +34,21 @@ output:
 <div class="proj-overlay"><div class="proj-text"><h3>CLAmp-Seq</h3> Capture Ligation Amplification Sequencing. Solution-phase probe-based nucleic acid detection, adaptated from Ligation in situ Hybridization [[<i class="fa fa-fw fa-file" aria-hidden="true"></i> Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/28854731)]. Currently in active development.</div>
 </div></div>
 
+
+<div class="proj-container"><img src="docs/phipdrake_dependency_graph.PNG" alt="phipdrake" class="proj-image">
+<div class="proj-overlay"><div class="proj-text"><h3>phipdrake</h3> Data analysis pipeline for PhIP-seq [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/phipdrake)].</div>
+</div></div>
+
+<!-- <div class="proj-container"><img src="" alt="" class="proj-image"> -->
+<!-- <div class="proj-overlay"><div class="proj-text"><h3></h3></div> -->
+<!-- </div></div> -->
+
+<!-- <div class="proj-container"><img src="" alt="" class="proj-image"> -->
+<!-- <div class="proj-overlay"><div class="proj-text"><h3></h3></div> -->
+<!-- </div></div> -->
+
+<!-- <div class="proj-container"><img src="" alt="" class="proj-image"> -->
+<!-- <div class="proj-overlay"><div class="proj-text"><h3></h3></div> -->
+<!-- </div></div> -->
 
 </div>
