@@ -18,7 +18,7 @@ output:
 <!-- <div class="proj-container"><div class = "proj-overlay"  style = "opacity: 1;"><div class = proj-text" style = "vertical-align: center;"><h1>Selected<br>Projects</h1> Some of the things that I'm currently working on. Mouseover for more information.</div></div></div> -->
 
 ## Selected Projects
-Some of the things I'm currently working on. Mouseover for more information.
+Some of the things I've been working on recently. Mouseover for more information.
 
 
 <div class="proj-container"><img src="docs/epitopefindr_logo3.png" alt="epitopefindr" class="proj-image">
