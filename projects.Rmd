@@ -36,12 +36,12 @@ Some of the things I'm currently working on. Mouseover for more information.
 
 
 <div class="proj-container"><img src="docs/phipdrake_dependency_graph.PNG" alt="phipdrake" class="proj-image">
-<div class="proj-overlay"><div class="proj-text"><h3>phipdrake</h3> Data analysis pipeline for PhIP-seq [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/phipdrake)].</div>
+<div class="proj-overlay"><div class="proj-text"><h3>phipmake</h3> Data analysis pipeline for PhIP-seq [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/phipmake)].</div>
 </div></div>
 
-<!-- <div class="proj-container"><img src="" alt="" class="proj-image"> -->
-<!-- <div class="proj-overlay"><div class="proj-text"><h3></h3></div> -->
-<!-- </div></div> -->
+<div class="proj-container"><img src="docs/styles.png" alt="styles" class="proj-image">
+<div class="proj-overlay"><div class="proj-text"><h3>Themes</h3> Custom CSS and styles for RStudio, Dynalist, etc.  [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/themes)] </div>
+</div></div>
 
 <!-- <div class="proj-container"><img src="" alt="" class="proj-image"> -->
 <!-- <div class="proj-overlay"><div class="proj-text"><h3></h3></div> -->
