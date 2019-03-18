@@ -5,15 +5,18 @@ output:
       theme: sandstone
       css: styles.css
 ---
+  
+<div class = "siteinfo" align = "center" style = "min-height: 80vh; display:flex; justify-content: flex-end; flex-direction: column;">  
 
 <a class="anchor" id="bio"></a>
 <div class = "row">
 
-<div class = "col-12 col-sm-3">
+<div class = "col-6 col-sm-auto">
 
-<img class = "profpic1" src="docs/brandon1.png">
+<img class = "profpic2" src="docs/brandon3.jpg">
 </div>
-<div class = "col-12 col-sm-auto" align = "center">
+
+<div class = "col-6 col-sm-auto" align = "center">
 <p class = "name">Brandon Sie</p>
 
 <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Baltimore, Maryland  
@@ -27,12 +30,24 @@ output:
 | [<i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin](https://www.linkedin.com/in/brandonsie)
 | [<i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email](mailto:brandonsie@gmail.com)  
 
+</div>
+</div>
+</div>
 
-<hr>
 
+
+
+
+<div class = "row" style = "max-width: 80vw;">
+
+<div class = "col-12 col-sm-auto" align = "center" style = "padding-left: 50px; padding-right: 50px">
+
+<!-- <hr> -->
+<br> <br> 
 I am a research specialist in the lab of H. Benjamin Larman at Johns Hopkins University School of Medicine in the Department of Pathology. My job gives me the opportunity to develop high-throughput, massively-multiplexed immune profiling assays and to design bioinformatics software for related data analyses.
 
 I graduated from the University of California, Berkeley with a BS in bioengineering in 2015. Before joining the Larman Lab, I worked as an ORISE research fellow at the Food and Drug Administration.
 </div>
 
 </div>  
+
