@@ -40,7 +40,7 @@ output:
 
 <div class = "row">
 
-<div class = "col-12 col-sm-auto" align = "center" style = "max-width: 1000px; width: 50%; margin: auto; text-align: center;">
+<div class = "col-12 col-sm-auto" align = "center" style = "max-width: 1000px; width: 90%; margin: auto; text-align: center;">
 
 <!-- <hr> -->
 <br> <br> 
