@@ -7,8 +7,8 @@ navbar:
     href: "#bio"
   - text: Projects
     href: "#projects"
-  - text: Site Info
-    href: "#siteinfo"
+  - text: epitopefindr
+    href: "https://github.com/brandonsie/epitopefindr"
   right:
   - icon: fa-info fa-lg
     href: "#siteinfo"
