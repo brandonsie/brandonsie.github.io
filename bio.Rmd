@@ -38,9 +38,9 @@ output:
 
 
 
-<div class = "row" style = "max-width: 80vw;">
+<div class = "row">
 
-<div class = "col-12 col-sm-auto" align = "center" style = "padding-left: 50px; padding-right: 50px">
+<div class = "col-12 col-sm-auto" align = "center" style = "max-width: 1000px; width: 50%; margin: auto; text-align: center;">
 
 <!-- <hr> -->
 <br> <br> 
