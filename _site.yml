@@ -8,7 +8,9 @@ navbar:
   - text: Projects
     href: "#projects"
   - text: epitopefindr
-    href: "https://brandonsie.github.io/epitopefindr"
+    href: "https://brandonsie.github.io/epitopefindr/"
+  - text: phipmake
+    href: "https://brandonsie.github.io/phipmake/"
   right:
   - icon: fa-info fa-lg
     href: "#siteinfo"
