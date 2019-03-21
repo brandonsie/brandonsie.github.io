@@ -18,7 +18,7 @@ navbar:
     href: "https://brandonsie.github.io/bms/"
 output:
   html_document:
-    theme: paper
+    theme: sandstone
     css: styles.css
     lib_dir: site_libs
     self_contained: no
