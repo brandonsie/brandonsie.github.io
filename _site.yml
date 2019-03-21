@@ -7,13 +7,15 @@ navbar:
     href: "#bio"
   - text: Projects
     href: "#projects"
+  - icon: fa-info fa-lg
+    href: "#siteinfo"
+  right:
   - text: epitopefindr
     href: "https://brandonsie.github.io/epitopefindr/"
   - text: phipmake
     href: "https://brandonsie.github.io/phipmake/"
-  right:
-  - icon: fa-info fa-lg
-    href: "#siteinfo"
+  - text: bms
+    href: "https://brandonsie.github.io/bms/"
 output:
   html_document:
     theme: paper
