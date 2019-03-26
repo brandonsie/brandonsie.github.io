@@ -35,13 +35,20 @@ Some of the things I've been working on recently. Mouseover for more information
 
 <p style = "margin: 0; padding: 0px 0px 0px 0px"></p>
 
-<div class="proj-container"><img src="docs/phipdrake_dependency_graph.PNG" alt="phipdrake" class="proj-image">
+<div class="proj-container"><img src="docs/phipdrake_dependency_graph.PNG" alt="phipmake" class="proj-image">
 <div class="proj-overlay"><div class="proj-text"><h3>phipmake</h3> Data analysis pipeline for PhIP-seq [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/phipmake)].</div>
 </div></div>
 
 <div class="proj-container"><img src="docs/styles.png" alt="styles" class="proj-image">
 <div class="proj-overlay"><div class="proj-text"><h3>Themes</h3> Custom CSS and styles for RStudio, Dynalist, etc.  [[<i class="fa fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie/themes)] </div>
 </div></div>
+
+<p style = "margin: 0; padding: 0px 0px 0px 0px"></p>
+
+<div class="proj-container"><img src="docs/chess_heatmap_1.png" alt="sieChess" class="proj-image">
+<div class="proj-overlay"><div class="proj-text"><h3>sieChess</h3> ggplot-based visualization tools for Chess PGNs. Coming to Github soon.</div>
+</div></div>
+
 
 <!-- <div class="proj-container"><img src="" alt="" class="proj-image"> -->
 <!-- <div class="proj-overlay"><div class="proj-text"><h3></h3></div> -->
