@@ -137,13 +137,24 @@
 .hexLink:hover .proj-text {
   color: black;
   font-size: 15px;
+  font-size: 1vw;
   position: absolute;
   text-align: center;
   height: 50%;
   padding: 40% 0;
 }
 
+.hexHeader{
+  color: black;
+  font-size: 0px;
+}
 
+.hexLink:hover .hexHeader {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2vw;
+}
 
 /*** HOVER EFFECT  **********************************************************************/
 .hexLink:hover .hexText, .hexLink:focus .hexText{
