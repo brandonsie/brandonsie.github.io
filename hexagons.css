@@ -8,7 +8,7 @@
 #hexGrid { /* List of Hex Elements*/
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   overflow: hidden;
   font-size: 15px;
@@ -108,10 +108,11 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 0%;
+  height: 0;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
+  background-color: rgb(240,240,240);
   background-color: rgba(240,240,240,0.9);
 }
 
@@ -127,10 +128,10 @@
 
 .proj-text {
   color: black;
-  font-size: 0px;
+  font-size: 0;
   position: absolute;
   text-align: center;
-  height: 0%;
+  height: 0;
   width: 100%;
 }
 
@@ -146,7 +147,7 @@
 
 .hexHeader{
   color: black;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .hexLink:hover .hexHeader {
@@ -219,5 +220,6 @@
 
 @media (max-width: 400px) {
     #hexGrid {
+          padding-bottom: 10%;
   }
 }
