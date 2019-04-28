@@ -10,14 +10,16 @@ navbar:
   - icon: fa-info fa-lg
     href: "#siteinfo"
   right:
-  - text: epitopefindr
-    href: "https://brandonsie.github.io/epitopefindr/"
-  - text: phipmake
-    href: "https://brandonsie.github.io/phipmake/"
-  - text: phipcc
-    href: "https://brandonsie.github.io/phipcc/"
-  - text: bms
-    href: "https://brandonsie.github.io/bms/"
+    - text: R Packages
+      menu:
+      - text: epitopefindr
+        href: "https://brandonsie.github.io/epitopefindr/"
+      - text: phipmake
+        href: "https://brandonsie.github.io/phipmake/"
+      - text: phipcc
+        href: "https://brandonsie.github.io/phipcc/"
+      - text: bms
+        href: "https://brandonsie.github.io/bms/"
 output:
   html_document:
     theme: sandstone
