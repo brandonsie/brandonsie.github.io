@@ -13,6 +13,7 @@
   overflow: hidden;
   font-size: 12px;
   list-style-type: none;
+  margin-left: -20px;
 }
 
 .hex { /* Individual Hex li Element */
