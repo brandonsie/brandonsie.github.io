@@ -154,8 +154,6 @@
 .hexLink:hover .hexHeader {
   color: black;
   font-weight: bold;
-  font-size: 20px;
-  font-size: 2vw;
 }
 
 /*** HOVER EFFECT  **********************************************************************/
@@ -182,6 +180,10 @@
   font-size: 15px;
 }
 
+.hexLink:hover .hexHeader {
+  font-size: 20px;
+}
+
   .hex {
     /* 100 / (number hex in odd rows) = width percent */
     width: 33.33%; /* = 100 / 5 */
@@ -202,6 +204,10 @@
 
 .hexLink:hover .proj-text {
   font-size: 15px;
+}
+ 
+ .hexLink:hover .hexHeader {
+  font-size: 20px;
 }
   
   .hex {
@@ -224,6 +230,10 @@
   font-size: 13px;
 }
 
+.hexLink:hover .hexHeader {
+  font-size: 18px;
+}
+
   .hex {
     width: 50%; /* = 100 / 3 */
   }
@@ -238,6 +248,10 @@
   }
   .hexLink:hover .proj-text {
   font-size: 10px;
+}
+
+.hexLink:hover .hexHeader {
+  font-size: 15px;
 }
 
 }
