@@ -14,7 +14,7 @@ output:
 
 <div class = "col-6 col-sm-auto">
 
-<img class = "profpic2" src="docs/brandon3.jpg">
+<img class = "profpic1" src="docs/brandonsie.jpg">
 </div>
 
 <div class = "col-6 col-sm-auto" align = "center">
