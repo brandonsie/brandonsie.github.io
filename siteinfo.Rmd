@@ -2,10 +2,9 @@
 pagetitle: Brandon Sie
 output:
     html_document:
+      theme: sandstone
       includes: 
         in_header: head.html
-      theme: sandstone
-      css: styles.css
 ---
 <br>  
 
