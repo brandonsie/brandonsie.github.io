@@ -15,8 +15,9 @@ output:
 <div style = "background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)); min-height: 40vh;">
 <h1>Site Info</h1>  
 
-&copy; Brandon Sie 2018-present. Source code is available 
-on [Github](https://github.com/brandonsie/brandonsie.github.io). 
+&copy; Brandon Sie 2018-present.  
+
+
 
 <br>
 <br>
