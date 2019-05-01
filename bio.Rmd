@@ -22,7 +22,7 @@ output:
 <div class = "col-6 col-sm-auto" align = "center">
 <p class = "name">Brandon Sie</p>
 
-test1
+test2
 
 <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Baltimore, Maryland  
 <i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> Johns Hopkins University  

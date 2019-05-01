@@ -1,5 +1,5 @@
 name: brandonsie.github.io
-output_dir: "_site"
+output_dir: "."
 navbar:
   title: Brandon Sie
   left:
