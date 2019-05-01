@@ -7,8 +7,6 @@ navbar:
     href: "#bio"
   - text: Projects
     href: "#projects"
-  - icon: fa-info fa-lg
-    href: "#siteinfo"
   right:
     - text: R Packages
       menu:
