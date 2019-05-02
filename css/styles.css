@@ -6,19 +6,31 @@ html {
 
 
 /***** Large Containers *****/
-.main-container { /* Doc */
-  /* Can set max-width here to make page wider */
-  margin-left: auto;
-  margin-right: auto;
+
+
+:root {
+    --bg-color: rgb(255, 255, 255);
+    --link-color: rgb(11, 0, 128);
+    --text-color: rgb(0, 0, 0);
 }
 
-.siteinfo{ /* Site Info pseudo footer */
-  /*padding-bottom: 70vh !important;*/
-  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("docs/grandteton.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: auto 100%;
+
+[data-theme="dark"] {
+    --bg-color: rgb(62, 63, 58);
+    --link-color: rgb(171, 165, 239);
+    --text-color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-color: var(--bg-color);
+    /*background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("docs/grandteton.jpg");*/
+
+}
+
+.main-container { /* 900px width doc */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -26,6 +38,7 @@ html {
 
 a { /* Links */
   color: rgb(11,0,128);
+  color: var(--link-color);
 }
 
 .anchor { /* Anchors (sample-age links) */
@@ -46,26 +59,12 @@ a { /* Links */
   border-radius: 0;
 
 }
-.profpic2{ /* Circular Profile Picture */
-  width: auto;
-  max-width: 30vw;  
-  max-height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
 
+p, h1, h2, h3, div { /* main text */
+  color: rgb(0, 0, 0);
+  color: var(--text-color);
 }
 
-hr { /* horizontal rule  divider*/
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
 
 p.name{ /* "Brandon Sie" */
   font-size: 25px;

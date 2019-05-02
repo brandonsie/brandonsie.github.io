@@ -10,12 +10,6 @@ output:
 
 <a class="anchor" id="siteinfo"></a>  
 
-<div class = "siteinfo" align = "center">  
-
-<div style = "background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)); min-height: 40vh;">
-<h1>Site Info</h1>  
-
-&copy; Brandon Sie 2018-present.  
-
-</div>
+<div align = "center">  
+<div>&copy; Brandon Sie 2018-present.  </div>
 </div>

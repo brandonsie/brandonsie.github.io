@@ -12,7 +12,7 @@ output:
 <!-- <div class = "siteinfo" align = "center" style = "min-height: 80vh; display:flex; justify-content: flex-end; flex-direction: column;">   -->
 
 <a class="anchor" id="bio"></a>
-<div class = "row" style = "background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,1));">
+<div class = "row">
 
 <div class = "col-6 col-sm-auto">
 <img class = "profpic1" src="docs/brandonsie.png">
