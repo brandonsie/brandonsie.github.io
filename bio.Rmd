@@ -7,9 +7,6 @@ output:
         in_header: head.html
 
 ---
-  
-
-<!-- <div class = "siteinfo" align = "center" style = "min-height: 80vh; display:flex; justify-content: flex-end; flex-direction: column;">   -->
 
 <a class="anchor" id="bio"></a>
 <div class = "row">
@@ -34,11 +31,10 @@ output:
 </div>
 </div>
 
-<div class = "row">
+<div class = "row" style = "margin: 0 0">
 
 <div class = "col-12 col-sm-auto" align = "center" style = "max-width: 800px; width: 90%; margin: auto; text-align: center;">
 
-<!-- <hr> -->
 <br><br>
 I am a research specialist in the [<i class="fa fa-fw fa-flask" aria-hidden="true"></i> H. Benjamin Larman  Lab](http://labs.pathology.jhu.edu/larman/) of the Johns Hopkins University School of Medicine Department of Pathology. My job gives me the opportunity to develop high-throughput, massively-multiplexed immune profiling assays and to design bioinformatics software for related data analyses.
 
