@@ -8,14 +8,9 @@ output:
 ---
 
 
-<div style = "text-align: right;">
-<div class="theme-switch-wrapper" style = "margin-bottom: 5px;">
-<label class="theme-switch" for="checkbox">
-<input type="checkbox" id="checkbox" />
-<div class="slider round"></div>
-</label>
-</div>
-</div>
+<div style = "text-align: right;"><div class="theme-switch-wrapper" style = "margin-bottom: 5px;">
+<label class="theme-switch" for="checkbox"><input type="checkbox" id="checkbox" />
+<div class="slider round"></div></label></div></div>
 
 <div class = "row" w3-include-html="bio.html"></div>
 <div class = "row" w3-include-html="hexagons.html" style = "text-align: center;"></div> 
