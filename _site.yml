@@ -10,13 +10,17 @@ navbar:
   right:
     - text: R Packages
       menu:
-      - text: epitopefindr
+      - icon: fa-github
+        text: epitopefindr
         href: "https://brandonsie.github.io/epitopefindr/"
-      - text: phipmake
+      - icon: fa-github
+        text: phipmake
         href: "https://brandonsie.github.io/phipmake/"
-      - text: phipcc
+      - icon: fa-github
+        text:  phipcc
         href: "https://brandonsie.github.io/phipcc/"
-      - text: bms
+      - icon: fa-github
+        text: bms
         href: "https://brandonsie.github.io/bms/"
 output:
   html_document:
