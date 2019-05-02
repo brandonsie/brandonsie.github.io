@@ -42,7 +42,7 @@ output:
 <br><br>
 I am a research specialist in the [<i class="fa fa-fw fa-flask" aria-hidden="true"></i> H. Benjamin Larman  Lab](http://labs.pathology.jhu.edu/larman/) of the Johns Hopkins University School of Medicine Department of Pathology. My job gives me the opportunity to develop high-throughput, massively-multiplexed immune profiling assays and to design bioinformatics software for related data analyses.
 
-I graduated from the University of California, Berkeley with a B.S. in bioengineering in 2015. Before joining the Larman Lab, I worked as an ORISE research fellow at the Food and Drug Administration. This fall, I will join the Harvard Medical School Department of Biomedical Informatics to pursue a Ph.D. in [Bioinformatics and Integrative Genomics (BIG)](http://dms.hms.harvard.edu/big/index.html).
+I graduated from the University of California, Berkeley with a B.S. in bioengineering in 2015. Before joining the Larman Lab, I worked as an ORISE research fellow at the Food and Drug Administration. This fall, I will join the Harvard Medical School Department of Biomedical Informatics to pursue a Ph.D. in [<i class="fas fa-laptop-medical"></i> Bioinformatics and Integrative Genomics (BIG)](http://dms.hms.harvard.edu/big/index.html).
 </div>
 
 </div>  

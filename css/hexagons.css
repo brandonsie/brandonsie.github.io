@@ -9,6 +9,7 @@
   font-size: 12px;
   list-style-type: none;
   margin-left: -20px;
+  padding-bottom: 10%;
 }
 
 .hex { /* Individual Hex li Element */
@@ -38,7 +39,7 @@
   transform: rotate3d(0,0,1,-60deg) skewY(30deg);
 }
 
-.hexIn .hexLink, .hexIn img { /* Edited from * to allow non-absolute positioning of hexText*/
+.hexIn .hexLink, .hexIn img { 
   position: absolute;
   visibility: visible;
   outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
@@ -73,32 +74,6 @@
   transform: rotate3d(0,0,0,0deg);
   }
 
-/*
-.hexText {
-  width: 100%;
-  padding: 5%;
-  box-sizing: border-box;
-  color: rgb(0,0,0);
-  background-color: rgb(230, 230, 230);
-  background-color: rgba(230, 230, 230, 0.95);
-  font-weight: 300;
-  
-  -o-transition: .5s ease;
-  -moz-transition: .5s ease;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-  height: -20%;
-  padding-bottom:100%;
-
-  -o-transform: translate3d(0,100%,0);
-  -moz-transform: translate3d(0,100%,0);
-  -webkit-transform:translate3d(0,100%,0);
-  -ms-transform:translate3d(0,100%,0);
-  transform:translate3d(0,100%,0);
-
-}
-*/
-
 .projOverlay {
   position: absolute;
   top: 0;
@@ -111,20 +86,13 @@
   transition: .5s ease;
   background-color: rgb(240,240,240);
   background-color: rgba(240,240,240,0.9);
+  background-color: var(--hex-overlay-bg-color);
 }
 
-.hexLink:hover .projOverlay {
-  opacity: 1;
-  height: 100%;
+.hexHeader{
+  font-size: 0;
 }
-
-.hexLink:focus .projOverlay {
-  opacity: 1;
-  height: 100%;
-}
-
 .projText {
-  color: black;
   font-size: 0;
   position: absolute;
   text-align: center;
@@ -132,8 +100,12 @@
   width: 100%;
 }
 
+.hexLink:hover .projOverlay, .hexLink:focus .projOverlay {
+  opacity: 1;
+  height: 100%;
+}
+
 .hexLink:hover .projText {
-  color: black;
   font-size: 12px;
   font-size: 1vw;
   position: absolute;
@@ -142,112 +114,36 @@
   padding: 40% 0;
 }
 
-.hexHeader{
-  color: black;
-  font-size: 0;
-}
 
 .hexLink:hover .hexHeader {
-  color: black;
   font-weight: bold;
 }
 
-/*** HOVER EFFECT  **********************************************************************/
-.hexLink:hover .hexText, .hexLink:focus .hexText{
-    height: 50%;
-/*
-  -o-transform: translate3d(0,0,0);
-  -moz-transform: translate3d(0,0,0);
-  -webkit-transform:translate3d(0,0,0);
-  -ms-transform:translate3d(0,0,0);
-  transform:translate3d(0,0,0);
+/***** Responsive Hex & Row Sizing *****/
+
+/* 
+  .hex width = 100% divided by max 5 per (odd) row 
+  .hex:nth-child(5n+4) odd*n + even
+    margin-left:16.67%;  indent for even rows; .hex width / 2 
+
 */
-  
+
+@media (min-width:601px) { 
+  .hexLink:hover .projText {font-size: 15px;}
+  .hexLink:hover .hexHeader {font-size: 20px;}
+  .hex {width: 33.33%;}
+  .hex:nth-child(5n+4){margin-left:16.67%;}
 }
 
-/*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
-
-@media (min-width:901px) { /* <- 4-3  hexagons per row */
-  #hexGrid{
-    padding-bottom: 10%;
-  }
-
-.hexLink:hover .projText {
-  font-size: 15px;
-}
-
-.hexLink:hover .hexHeader {
-  font-size: 20px;
-}
-
-  .hex {
-    /* 100 / (number hex in odd rows) = width percent */
-    width: 33.33%; /* = 100 / 5 */
-  }
-  
-  .hex:nth-child(5n+4){ /* first hexagon of even rows. before 9n+6*/
-      margin-left:16.67%;  /* = width of .hex / 2  to indent even rows . before 10%*/
-  }
-}
-
-
-@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
-  #hexGrid{
-    padding-bottom: 10%;
-
-  }
-
-
-.hexLink:hover .projText {
-  font-size: 15px;
-}
- 
- .hexLink:hover .hexHeader {
-  font-size: 20px;
-}
-  
-  .hex {
-    /* 100 / (number hex in odd rows) = width percent */
-    width: 33.33%; /* = 100 / 5 */
-  }
-  
-  .hex:nth-child(5n+4){ /* first hexagon of even rows. before 9n+6*/
-      margin-left:16.67%;  /* = width of .hex / 2  to indent even rows . before 10%*/
-  }
-}
-
-@media (max-width: 600px) { /* <- 2-1  hexagons per row */
-  #hexGrid{
-    padding-bottom: 11.2%;
-
-  }
-  
-  .hexLink:hover .projText {
-  font-size: 13px;
-}
-
-.hexLink:hover .hexHeader {
-  font-size: 18px;
-}
-
-  .hex {
-    width: 50%; /* = 100 / 3 */
-  }
-  .hex:nth-child(3n+3){ /* first hexagon of even rows */
-      margin-left:25%;  /* = width of .hex / 2  to indent even rows */
-  }
+@media (max-width: 600px) { 
+  .hexLink:hover .projText {font-size: 13px;}
+  .hexLink:hover .hexHeader {font-size: 18px;}
+  .hex {width: 50%;}
+  .hex:nth-child(3n+3){margin-left:25%; }
 }
 
 @media (max-width: 400px) {
-    #hexGrid {
-          padding-bottom: 10%;
-  }
-  .hexLink:hover .projText {
-  font-size: 10px;
-}
-
-.hexLink:hover .hexHeader {
-  font-size: 15px;
-}
+  .hexLink:hover .projText {font-size: 10px;}
+  .hexLink:hover .hexHeader {font-size: 15px;}
 
 }
