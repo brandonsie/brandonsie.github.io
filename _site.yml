@@ -18,6 +18,8 @@ navbar:
         href: "https://brandonsie.github.io/phipmake/"
       - text: phipcc
         href: "https://brandonsie.github.io/phipcc/"
+      - text: pdfuniter
+        href: "https://github.com/brandonsie/pdfuniter/"
       - text: bms
         href: "https://brandonsie.github.io/bms/"
 output:
