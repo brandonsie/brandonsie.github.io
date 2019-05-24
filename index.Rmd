@@ -2,23 +2,25 @@
 pagetitle: Brandon Sie
 output:
     html_document:
+      theme: sandstone
       includes: 
         in_header: head.html
-      theme: sandstone
-      css: styles.css
 ---
 
 
-<script src="includeHTML.js"></script>
-<script src="unloadscroll.js"></script>
-<link href="styles.css" rel="stylesheet">
+<div style = "text-align: right;"><div class="theme-switch-wrapper" style = "margin-bottom: 5px;">
+<label class="theme-switch" for="checkbox"><input type="checkbox" id="checkbox" />
+<div class="slider round"></div></label></div></div>
 
 <div class = "row" w3-include-html="bio.html"></div>
-<!-- <div class = "row" w3-include-html="projects.html"></div>   -->
 <div class = "row" w3-include-html="hexagons.html" style = "text-align: center;"></div> 
 <div class = "row" id = "siteinfo" w3-include-html="siteinfo.html"></div>  
 
-
+<script src="js/includeHTML.js"></script>
+<script src="js/unloadscroll.js"></script>
+<script src="js/blackwhite.js"></script>
 <script>includeHTML();</script>
+
+
 
 

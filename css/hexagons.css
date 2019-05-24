@@ -1,0 +1,149 @@
+
+
+#hexGrid { /* List of Hex Elements*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 12px;
+  list-style-type: none;
+  margin-left: -20px;
+  padding-bottom: 10%;
+}
+
+.hex { /* Individual Hex li Element */
+  position: relative;
+  visibility: hidden;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+}
+
+.hex::after{
+  content:'';
+  display:block;
+  padding-bottom: 86.602%;  /* =  100 / tan(60) * 1.5 */
+}
+
+.hexIn{ /* Hex Content img and p*/ 
+  position: absolute;
+  width:96%;
+  padding-bottom: 110.851%; /* =  width / sin(60) */
+    margin:0 2%;
+  overflow: hidden;
+  visibility: hidden;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  -o-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+  -moz-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+  -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+  -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+  transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+}
+
+.hexIn .hexLink, .hexIn img { 
+  position: absolute;
+  visibility: visible;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+}
+
+.hexLink {
+  display:block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  -o-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+  -moz-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+  -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+  -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+  transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+}
+
+/***** Hex Content *****/
+
+.hex img {
+  left: -100%;
+  right: -100%;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+  -o-transform: rotate3d(0,0,0,0deg);
+  -moz-transform: rotate3d(0,0,0,0deg);
+  -webkit-transform: rotate3d(0,0,0,0deg);
+  -ms-transform: rotate3d(0,0,0,0deg);
+  transform: rotate3d(0,0,0,0deg);
+  }
+
+.projOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(240,240,240);
+  background-color: rgba(240,240,240,0.9);
+  background-color: var(--hex-overlay-bg-color);
+}
+
+.hexHeader{
+  font-size: 0;
+}
+.projText {
+  font-size: 0;
+  position: absolute;
+  text-align: center;
+  height: 0;
+  width: 100%;
+}
+
+.hexLink:hover .projOverlay, .hexLink:focus .projOverlay {
+  opacity: 1;
+  height: 100%;
+}
+
+.hexLink:hover .projText {
+  font-size: 12px;
+  font-size: 1vw;
+  position: absolute;
+  text-align: center;
+  height: 50%;
+  padding: 40% 0;
+}
+
+
+.hexLink:hover .hexHeader {
+  font-weight: bold;
+}
+
+/***** Responsive Hex & Row Sizing *****/
+
+/* 
+  .hex width = 100% divided by max 5 per (odd) row 
+  .hex:nth-child(5n+4) odd*n + even
+    margin-left:16.67%;  indent for even rows; .hex width / 2 
+
+*/
+
+@media (min-width:601px) { 
+  .hexLink:hover .projText {font-size: 15px;}
+  .hexLink:hover .hexHeader {font-size: 20px;}
+  .hex {width: 33.33%;}
+  .hex:nth-child(5n+4){margin-left:16.67%;}
+}
+
+@media (max-width: 600px) { 
+  .hexLink:hover .projText {font-size: 13px;}
+  .hexLink:hover .hexHeader {font-size: 18px;}
+  .hex {width: 50%;}
+  .hex:nth-child(3n+3){margin-left:25%; }
+}
+
+@media (max-width: 400px) {
+  .hexLink:hover .projText {font-size: 10px;}
+  .hexLink:hover .hexHeader {font-size: 15px;}
+
+}

@@ -7,25 +7,28 @@ navbar:
     href: "#bio"
   - text: Projects
     href: "#projects"
-  - icon: fa-info fa-lg
-    href: "#siteinfo"
   right:
     - text: R Packages
       menu:
-      - text: epitopefindr
+      - icon: fa-github
+        text: epitopefindr
         href: "https://brandonsie.github.io/epitopefindr/"
-      - text: phipmake
+      - icon: fa-github
+        text: phipmake
         href: "https://brandonsie.github.io/phipmake/"
-      - text: phipcc
+      - icon: fa-github
+        text:  phipcc
         href: "https://brandonsie.github.io/phipcc/"
       - text: pdfuniter
         href: "https://github.com/brandonsie/pdfuniter/"
       - text: bms
+      - icon: fa-github
+        text: bms
         href: "https://brandonsie.github.io/bms/"
 output:
   html_document:
     theme: sandstone
-    css: styles.css
+    css: css/styles.css
     lib_dir: site_libs
     self_contained: no
 
