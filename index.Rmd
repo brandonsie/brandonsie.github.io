@@ -16,6 +16,9 @@ output:
 <div class = "row" w3-include-html="hexagons.html" style = "text-align: center;"></div> 
 <div class = "row" id = "siteinfo" w3-include-html="siteinfo.html"></div>  
 
+
+<div class = "row" w3-include-html="contact.html"></div>
+
 <script src="js/includeHTML.js"></script>
 <script src="js/unloadscroll.js"></script>
 <script src="js/blackwhite.js"></script>
