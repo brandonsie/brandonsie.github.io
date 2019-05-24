@@ -19,9 +19,9 @@ navbar:
       - icon: fa-github
         text:  phipcc
         href: "https://brandonsie.github.io/phipcc/"
-      - text: pdfuniter
+      - icon: fa-github
+        text: pdfuniter
         href: "https://github.com/brandonsie/pdfuniter/"
-      - text: bms
       - icon: fa-github
         text: bms
         href: "https://brandonsie.github.io/bms/"
