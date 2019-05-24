@@ -23,7 +23,7 @@ output:
 
 [<i class="fab fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/brandonsie) 
 | [<i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar](https://scholar.google.com/citations?user=FpNLPEkAAAAJ&hl=en)  
-[<i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin](https://www.linkedin.com/in/brandonsie)
+[<i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin](https://www.linkedin.com/in/brandonsie) | [<i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Contact](https://docs.google.com/forms/d/e/1FAIpQLScxeg-geZH0AYa-V0LeooPoqtvXfx1qt3su-8_CLrrBLdKUlw/viewform)
 
 </div>
 </div>
