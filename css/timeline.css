@@ -61,15 +61,14 @@ input::before, input::after {
   top: 50%;
   transform: translateY(-50%);
   background-color: var(--timeline-color);
-    width: 4vw;
+  width: 70px;
   height: 5px;
-  max-width: 50px;
 }
 input::before {
-  left: calc(-4vw + 12.5px);
+  left: calc(-70px + 12.5px);
 }
 input::after {
-  right: calc(-4vw + 12.5px);
+  right: calc(-70px + 12.5px);
 }
 input:checked {
   background-color: var(--timeline-color);
@@ -119,11 +118,8 @@ input:checked + .dot-info span {
 width: 100%;
 margin-top: 50px;
 
-/*
-  font-size: 22px;
-font-weight: 400;
-*/
   margin-left: calc((-80vw - 25px) / 20);
+
 }
 #timeline-descriptions-wrapper p {
 margin-top: 0;
@@ -170,103 +166,3 @@ input[data-description="2020"]:checked ~ #timeline-descriptions-wrapper p[data-d
   display: block;
 }
 
-
-/*
-@media (min-width: 1250px) {
-  .input-flex-container {
-    margin-left: 62.5px;
-  }
-  
-  input::before {
-    left: -37.5px;
-  }
-  input::after {
-    right: -37.5px;
-  }
-  
-  .dot-info {
-    left: calc((((1000px - 25px) / 20) * -1) - 1px);
-  }
-  
-  #timeline-descriptions-wrapper {
-  margin-left: -37.5px;
-}
-}
-@media (max-width: 630px) {
-  .flex-parent {
-    justify-content: initial;
-  }
-  
-  .input-flex-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 400px;
-    margin-left: 0;
-  }
-  
-  input, .dot-info {
-    width: 60px;
-    height: 60px;
-    margin: 0 10px;
-  }
-  
-  input {
-    background-color: transparent !important;
-    z-index: 1;
-  }
-  input::before, input::after {
-    content: none;
-  }
-  input:checked + .dot-info {
-    background-color: var(--timeline-color);
-  }
-  input:checked + .dot-info span.year {
-    font-size: 14px;
-  }
-  input:checked + .dot-info span.label {
-    font-size: 12px;
-  }
-  
-  .dot-info {
-    visibility: visible;
-    border-radius: 50%;
-    z-index: 0;
-    left: 0;
-    margin-left: -70px;
-    background-color: #AEB6BF;
-  }
-  .dot-info span.year {
-    top: 0;
-    left: 0;
-    transform: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ECF0F1;
-  }
-  .dot-info span.label {
-    top: calc(100% + 5px);
-    left: 50%;
-    transform: translateX(-50%);
-    text-indent: 0;
-    text-align: center;
-  }
-  
-  #timeline-descriptions-wrapper {
-  margin-left: 0;
-  text-align: center;
-}
-}
-@media (max-width: 480px) {
-  .input-flex-container {
-    width: 340px;
-  }
-}
-@media (max-width: 400px) {
-  .input-flex-container {
-    width: 300px;
-  }
-}
-*/
