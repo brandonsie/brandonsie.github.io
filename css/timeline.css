@@ -1,11 +1,9 @@
 
-/* https://codepen.io/cjl750/pen/MXvYmg */
+/* Adapted from https://codepen.io/cjl750/pen/MXvYmg */
 
 :root {
   --timeline-color: #2C3E50;
-  
 }
-
 
 [data-theme="dark"] {
   --timeline-color: rgb(164, 197, 252);
@@ -34,7 +32,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   width: 80vw;
-  max-width: 400px;
+  max-width: 450px;
   position: relative;
   z-index: 0;
   margin-left: calc((80vw - 25px) / 20);
@@ -172,6 +170,8 @@ input[data-description="2020"]:checked ~ #timeline-descriptions-wrapper p[data-d
   display: block;
 }
 
+
+/*
 @media (min-width: 1250px) {
   .input-flex-container {
     margin-left: 62.5px;
@@ -269,3 +269,4 @@ input[data-description="2020"]:checked ~ #timeline-descriptions-wrapper p[data-d
     width: 300px;
   }
 }
+*/
