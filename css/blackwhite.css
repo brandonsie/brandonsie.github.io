@@ -1,6 +1,17 @@
 
-/* https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8 */
-/* https://codepen.io/nfranciosi/pen/VGrbzm */
+/* 
+  https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8 
+  https://codepen.io/nfranciosi/pen/VGrbzm 
+*/
+
+
+:root{
+  --slider-main-co: #fff;
+  --slider-bg-blue: #6666d1;
+  --slider-bg-gold: #daa520;
+  --slider-tr-time: .5s;
+}
+
 
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
@@ -19,37 +30,53 @@
   display:none;
 }
 
-.slider {
-  background-color: #6666d1; /* dark mode toggle swtich backgorund color */
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
+.slider { /* Main Oval */
   position: absolute;
-  right: 0;
+  background-color: var(--slider-bg-blue); 
   top: 0;
-  transition: .4s;
-  
-
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: var(--slider-tr-time);
+  cursor: pointer;
 }
 
-.slider:before {
-  background-color: #fff; /* toggle swtich button color */
-  bottom: 4px;
+.slider:before { /* Toggle Switch white circle */
   content: "";
-  height: 16px;
-  left: 4px;
   position: absolute;
-  transition: .4s;
+  background-color: var(--slider-main-co); 
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  height: 16px;
   width: 16px;
+  transition: var(--slider-tr-time);
 }
 
-input:checked + .slider {
-  background-color: #daa520;
+.slider:after{ /* Smaller circle for Moon effect */
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: var(--slider-bg-blue); 
+  left: 10px;
+  top: 4px;
+  height: 13px;
+  width: 13px;
+  transition: var(--slider-tr-time);
+
+}
+
+input:checked + .slider, input:checked + .slider:after {
+  background-color: var(--slider-bg-gold);
 }
 
 input:checked + .slider:before {
   transform: translateX(26px);
+}
 
+input:checked + .slider:after {
+  transform: scale(0.5) translateX(-10px);
 }
 
 .slider.round {
@@ -60,3 +87,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+
+.slider.round:after {
+  border-radius: 50%;
+}
