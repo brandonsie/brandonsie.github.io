@@ -1,6 +1,6 @@
 
 /* https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8 */
-
+/* https://codepen.io/nfranciosi/pen/VGrbzm */
 
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
@@ -20,7 +20,7 @@
 }
 
 .slider {
-  background-color: #ccc;
+  background-color: #6666d1; /* dark mode toggle swtich backgorund color */
   bottom: 0;
   cursor: pointer;
   left: 0;
@@ -28,10 +28,12 @@
   right: 0;
   top: 0;
   transition: .4s;
+  
+
 }
 
 .slider:before {
-  background-color: #fff;
+  background-color: #fff; /* toggle swtich button color */
   bottom: 4px;
   content: "";
   height: 16px;
@@ -42,11 +44,12 @@
 }
 
 input:checked + .slider {
-  background-color: rgb(164, 197, 252); /*#66bb6a;*/
+  background-color: #daa520;
 }
 
 input:checked + .slider:before {
   transform: translateX(26px);
+
 }
 
 .slider.round {
