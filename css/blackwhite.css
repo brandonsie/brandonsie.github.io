@@ -76,7 +76,7 @@ input:checked + .slider:before {
 }
 
 input:checked + .slider:after {
-  transform: scale(0.5) translateX(-10px);
+  transform: rotate(-0.3turn) translateX(5px) scale(0.5);
 }
 
 .slider.round {
