@@ -9,7 +9,7 @@
   --slider-main-co: #fff;
   --slider-bg-blue: #6666d1;
   --slider-bg-gold: #daa520;
-  --slider-tr-time: .5s;
+  --slider-tr-time: 3s;
 }
 
 
@@ -76,7 +76,7 @@ input:checked + .slider:before {
 }
 
 input:checked + .slider:after {
-  transform: rotate(-0.3turn) translateX(5px) scale(0.5);
+  transform: rotate(0.07turn) translateX(28px) scale(0);
 }
 
 .slider.round {
