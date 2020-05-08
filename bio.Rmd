@@ -36,7 +36,7 @@ output:
 <div class = "col-12 col-sm-auto" align = "center" style = "max-width: 800px; width: 90%; margin: auto; text-align: center;">
 
 <br><br>
-I am a first year Ph.D. student in [<i class="fas fa-laptop-medical"></i> Bioinformatics and Integrative Genomics (BIG)](http://dms.hms.harvard.edu/big/index.html) in the Department of Biomedical Informatics at Harvard Medical School.
+I am a Ph.D. student in [<i class="fas fa-laptop-medical"></i> Bioinformatics and Integrative Genomics (BIG)](http://dms.hms.harvard.edu/big/index.html) in the Department of Biomedical Informatics at Harvard Medical School.
 
 I graduated from the University of California, Berkeley with a B.S. in bioengineering in 2015. Before returning to school, I worked as an ORISE research fellow at the Food and Drug Administration and as a research specialist in the [<i class="fa fa-fw fa-flask" aria-hidden="true"></i> H. Benjamin Larman  Lab](http://labs.pathology.jhu.edu/larman/) of the  Department of Pathology at Johns Hopkins University School of Medicine. In the Larman Lab, I performed high-throughput, massively-multiplexed immune profiling assays and designed software for related data analyses.
 
