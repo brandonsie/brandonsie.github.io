@@ -12,7 +12,7 @@ output:
 <div class = "row">
 
 <div class = "col-6 col-sm-auto">
-<img class = "profpic1" src="docs/brandonsie.png">
+<!-- <img class = "profpic1" src="docs/brandonsie.png"> -->
 </div>
 
 <div class = "col-6 col-sm-auto" align = "center">
