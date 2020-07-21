@@ -15,7 +15,7 @@ output:
 
 
 <div class = "row" w3-include-html="bio.html"></div>
-<div class = "row" w3-include-html="hexagons.html" style = "text-align: center;"></div> 
+<div class = "row" id = "hex" w3-include-html="hexagons.html" style = "text-align: center;"></div> 
 <div class = "row" id = "siteinfo" w3-include-html="siteinfo.html"></div>  
 
 
