@@ -4,50 +4,208 @@ html {
   scroll-behavior: smooth;
 }
 
-
-/***** Large Containers *****/
-
+/***** Variables *****/
 
 :root {
-/*    --bg-color: rgb(62, 63, 58); */
-    --bg-color: #161310;
-    --navbar-bg-color: #1d1d1d;
-    --link-color: rgb(164, 197, 252); /*rgb(171, 165, 239);*/
-    --text-color: rgb(255, 255, 255);
-    --hex-overlay-bg-color: rgba(15, 15, 15, 0.9);
+  /*    --bg-color: rgb(62, 63, 58); */
+  --bg-color: #161310;
+  --button-bg-color: rgba(0,0,0, 0.5);
+  --bg-color-nav-dd: #33305c;
+  --navbar-bg-color: #1d1d1d;
+  --navbar-hover-color: rgb(1, 15, 53);
+  --bg-gradient-1: linear-gradient(rgba(4, 33, 95, 0.5), rgba(0, 0, 0, 0.9)), url('../resources/bg1.jpg');;
+  --link-color: rgb(164, 197, 252); /*rgb(171, 165, 239);*/
+  --text-color: rgb(255, 255, 255);
+  --hex-overlay-bg-color: rgba(15, 15, 15, 0.9);
 }
 
 
 [data-theme="light"] {
-
-    /*--bg-color: rgb(255, 255, 255); */
-    --bg-color: #e9ecef;
-    /* --navbar-bg-color: #e2e2e2;*/
-    --link-color: rgb(11, 0, 128);
-    --text-color: rgb(0, 0, 0);
-    --hex-overlay-bg-color: rgba(240, 240, 240, 0.9);
+  
+  /*--bg-color: rgb(255, 255, 255); */
+  --bg-color: #e9ecef;
+  --button-bg-color: rgba(255,255,255, 0.5);
+  --bg-color-nav-dd: #b3b3b3;
+  --navbar-bg-color: #e2e2e2;
+  --navbar-hover-color: rgb(182, 200, 251);
+  --bg-gradient-1: linear-gradient(rgba(141, 141, 141, .5), rgba(130, 159, 255, .9)), url('../resources/bg1.jpg');;
+  --link-color: rgb(11, 0, 128);
+  --text-color: rgb(0, 0, 0);
+  --hex-overlay-bg-color: rgba(240, 240, 240, 0.9);
 }
 
-body{
-    background-color: rgb(255, 255, 255);
-    background-color: var(--bg-color);
-    margin: 0px 0px 0px 0px;
-    /*background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("docs/grandteton.jpg");*/
+/***** Navbar *****/
+
+ /* Navbar container */
+.navbar {
+  background-color: #000000;
+  background-color: var(--navbar-bg-color);
+  font-family: Arial;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 12px;
+  color: #ffffff;
+  color: var(--text-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  color: #ffffff;
+  color: var(--text-color);
+  font-size: 12px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(1, 15, 53);
+  background-color: var(--navbar-hover-color);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--bg-color);/* #313f5d; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #ffffff;
+  color: var(--text-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  background-color: var(--navbar-hover-color);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+.containerNavbar{
 
 }
 
-.navbar{
+#navbar{
   background-color: var(--navbar-bg-color);
   color: var(--text-color);
 }
 
-.bio{
-  height: 100vh;
+
+
+
+/***** Main Containers *****/
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-color: var(--bg-color);
+    margin: 0px;
+    font-family: Open Sans, sans-serif;
+    /*background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("docs/grandteton.jpg");*/
+
+}    
+
+.containerLanding{
+  height: 100vh; 
+  background:linear-gradient(rgba(4, 33, 95, 0.5), rgba(0, 0, 0, 0.9)), url('../resources/bg1.jpg');
+  background: var(--bg-gradient-1);
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center;
+  background-size:cover;   
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 
-.main-container { /* 900px width doc */
-  margin-left: auto;
-  margin-right: auto;
+#landing{
+  margin:auto; position:relative; top: 50%; transform:translateY(-50%);
+  padding: 0px;
+}
+
+.containerBio{
+  text-align: center; 
+  background-color:#000;
+  background-color: var(--bg-color);
+  min-height:50vh; 
+  height: 300px; 
+  margin: 0 0 0 0;
+}
+
+#bio{
+  max-width: 900px;
+  margin:auto; 
+  position: relative; 
+  top: 50%; 
+  transform: translateY(-50%);
+}
+
+.containerHex{
+  text-align: center; 
+  background-color:#1d1d1d; 
+  background-color: var(--navbar-bg-color); 
+  background: var(--bg-gradient-1);
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center;
+  background-size:cover;   
+  padding-top: 30px;
+  
+}
+
+#hexagons{
+  padding: auto;
+}
+
+.containerSiteInfo{
+  text-align: center;
+  background-color: #000;
+  background-color: var(--navbar-bg-color);
+  color: #fff;
+  color: var(--text-color);
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center;
+  background-size:cover;   
+  margin: 0px;  
+  padding: 0px;
+  min-height: 10vh;
+}
+
+#siteinfo{
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -61,7 +219,7 @@ a,A { /* Links */
 .anchor { /* Anchors (sample-age links) */
     display: block;
     position: relative;
-    top: -70px;
+    top: -28px;
     visibility: hidden;
 }
 
@@ -84,12 +242,12 @@ p, h1, h2, h3, div { /* main text */
 
 
 p.name{ /* "Brandon Sie" */
-  font-size: 25px;
+  font-size: 50px;
   font-weight: bold;
 }
 
 h1{ /* Header 1 */
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
@@ -107,3 +265,18 @@ h3{
 }
 
 
+/**** Buttons ****/
+.button {
+  background-color: rgba(0,0,0, 0.5);
+  background-color: var(--button-bg-color);
+  border: none;
+  color: white;
+  color: var(--text-color);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+} 
+.button12 {border-radius: 12px;}
