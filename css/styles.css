@@ -132,9 +132,9 @@ html {
 /***** Main Containers *****/
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #000;
     background-color: var(--bg-color);
-    color: #000;
+    color: #fff;
     color: var(--text-color);
     margin: 0px;
     font-family: Open Sans, sans-serif;
