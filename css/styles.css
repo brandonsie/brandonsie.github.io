@@ -74,7 +74,6 @@ html {
   border: none;
   outline: none;
   padding: 20px 16px;
-  background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
@@ -108,7 +107,7 @@ html {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: rgb(1,15,33);
   background-color: var(--navbar-hover-color);
 }
 
