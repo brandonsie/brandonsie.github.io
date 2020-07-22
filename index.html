@@ -19,10 +19,11 @@
   <meta name="theme-color" content="#ffffff">
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
   <link rel="stylesheet" type = "text/css" href="css/styles.css">
   <link rel="stylesheet" type = "text/css" href="css/blackwhite.css">
   <link rel="stylesheet" type = "text/css" href="css/hexagons.css">
-  
+
   <script
       src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -38,8 +39,8 @@
 
  <div class="navbar">
   <a href="#top">Brandon Sie</a>
-  <a href="#bio">About Me</a>
-  <a href="#projects">Projects</a>
+  <a href="#anchor_bio">About Me</a>
+  <a href="#anchor_projects">Projects</a>
   <div class="dropdown">
     <button class="dropbtn">R Packages
       <i class="fa fa-caret-down"></i>
@@ -55,7 +56,7 @@
 
 
     <div style="text-align: right;">
-      <div class="theme-switch-wrapper" style="margin-top:8px;">
+      <div class="theme-switch-wrapper" style="margin-top:18px;">
         <label class="theme-switch" for="checkbox"><input type="checkbox" id="checkbox" />
           <div class="slider round"></div>
         </label>
@@ -67,11 +68,17 @@
 
 
     <div class = "containerLanding"><div id = "landing"></div></div>
+    
+    <a class="anchor" id="anchor_bio">&nbsp;</a>
     <div class = "containerBio"><div id = "bio"></div></div>
+    
+    <a class="anchor" id="anchor_projects">&nbsp;</a>
     <div class = "containerHex"><div style = "max-width:900px; margin:auto;"><div id = "hexagons"></div></div></div>
+
     <div class = "containerSiteInfo"><div id = "siteinfo"></div></div>
 
   <script src="js/unloadscroll.js"></script>
+  <script src="js/JQuerySmoothScroll.js"></script>
   <script src="js/blackwhite.js"></script>
   </body>
 </html>

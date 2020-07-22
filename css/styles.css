@@ -44,16 +44,17 @@ html {
   position: fixed;
   width: 100%;
   z-index: 50;
+  min-height: 60px;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 12px;
+  font-size: 16px;
   color: #ffffff;
   color: var(--text-color);
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
 }
 
@@ -61,16 +62,18 @@ html {
 .dropdown {
   float: right;
   overflow: hidden;
+  background-color: #000;
+  background-color: var(--navbar-bg-color);
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
   color: #ffffff;
   color: var(--text-color);
-  font-size: 12px;
+  font-size: 16px;
   border: none;
   outline: none;
-  padding: 14px 16px;
+  padding: 20px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -130,6 +133,8 @@ html {
 body{
     background-color: rgb(255, 255, 255);
     background-color: var(--bg-color);
+    color: #fff;
+    color: var(--text-color);
     margin: 0px;
     font-family: Open Sans, sans-serif;
     /*background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("docs/grandteton.jpg");*/
@@ -158,9 +163,8 @@ body{
   text-align: center; 
   background-color:#000;
   background-color: var(--bg-color);
-  min-height:50vh; 
   height: 300px; 
-  margin: 0 0 0 0;
+  margin: 50px;
 }
 
 #bio{
@@ -169,6 +173,7 @@ body{
   position: relative; 
   top: 50%; 
   transform: translateY(-50%);
+  line-height: 150%;
 }
 
 .containerHex{
@@ -219,7 +224,7 @@ a,A { /* Links */
 .anchor { /* Anchors (sample-age links) */
     display: block;
     position: relative;
-    top: -28px;
+    top: -60px;
     visibility: hidden;
 }
 
