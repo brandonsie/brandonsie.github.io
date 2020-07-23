@@ -87,7 +87,6 @@ input:checked + .slider:after {
   border-radius: 50%;
 }
 
-
 .slider.round:after {
   border-radius: 50%;
 }
