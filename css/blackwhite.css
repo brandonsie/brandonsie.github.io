@@ -21,8 +21,8 @@
 
 .theme-switch {
   display: inline-block;
-  height: 24px;
   position: relative;
+  height: 24px;
   width: 50px;
 }
 

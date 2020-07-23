@@ -47,37 +47,44 @@
   <body>
     <a class = "anchor" id="top"></a>
 
- <div class="navbar">
-  <a href="#top">Brandon Sie</a>
-  <a href="#anchor_bio">About Me</a>
-  <a href="#anchor_projects">Projects</a>
-  <div class="dropdown">
-    <button class="dropbtn">R Packages
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="https://brandonsie.github.io/epitopefindr/">epitopefindr</a>
-      <a href="https://brandonsie.github.io/phipmake/">phipmake</a>
-      <a href="https://brandonsie.github.io/phipcc/">phipcc</a>
-      <a href="https://github.com/brandonsie/pdfuniter/">pdfuniter</a>
-      <a href="https://brandonsie.github.io/bms/">bms</a>
-    </div>
-  </div>
 
-
-    <div style="text-align: right;">
-      <div class="theme-switch-wrapper" style="margin-top:18px;">
-        <label class="theme-switch" for="checkbox"><input type="checkbox" id="checkbox" />
-          <div class="slider round"></div>
-        </label>
+    <!-- Navbar -->
+    <div class="navbar" id="topNav">
+      <a href="#top" class = "navitem">Brandon Sie</a>
+      <a href="#anchor_bio" class = "navitem">About Me</a>
+      <a href="#anchor_projects" class = "navitem">Projects</a>
+      <div class="dropdown navitem">
+        <button class="dropbtn">R Packages
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://brandonsie.github.io/epitopefindr/">epitopefindr</a>
+          <a href="https://brandonsie.github.io/phipmake/">phipmake</a>
+          <a href="https://brandonsie.github.io/phipcc/">phipcc</a>
+          <a href="https://github.com/brandonsie/pdfuniter/">pdfuniter</a>
+          <a href="https://brandonsie.github.io/bms/">bms</a>
+        </div>
       </div>
-    </div>
-
-    
-</div> 
 
 
-    <div class = "containerLanding"><div id = "landing"></div></div>
+        <div style="text-align: right; margin-top:8px;" class = "navitem">
+          <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox"><input type="checkbox" id="checkbox" />
+              <div class="slider round"></div>
+            </label>
+          </div>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+
+
+        
+    </div> 
+
+    <!-- Main Content -->
+    <div class = "containerLanding bg1"><div id = "landing"></div></div>
     
     <a class="anchor" id="anchor_bio">&nbsp;</a>
     <div class = "containerBio"><div id = "bio"></div></div>
@@ -87,8 +94,10 @@
 
     <div class = "containerSiteInfo"><div id = "siteinfo"></div></div>
 
-  <script src="js/unloadscroll.js"></script>
-  <script src="js/JQuerySmoothScroll.js"></script>
-  <script src="js/blackwhite.js"></script>
+    <!-- Javascript -->
+    <script src="js/unloadscroll.js"></script>
+    <script src="js/JQuerySmoothScroll.js"></script>
+    <script src="js/blackwhite.js"></script>
+    <script src="js/responsiveNav.js"></script>
   </body>
 </html>
