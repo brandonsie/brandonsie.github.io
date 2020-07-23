@@ -290,3 +290,9 @@ h3{
   margin: 4px 2px;
 } 
 .button12 {border-radius: 12px;}
+
+.button:hover {
+  background-color: rgb(1,15,33);
+  background-color: var(--navbar-hover-color);
+}
+
