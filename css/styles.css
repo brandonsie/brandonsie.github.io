@@ -215,7 +215,8 @@ body{
   -webkit-background-size:cover;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) { */
+@supports (-webkit-touch-callout: none) {
   .containerLanding, .containerHex{
     background-attachment: scroll;
   }
