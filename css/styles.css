@@ -176,10 +176,7 @@ body{
   background-position: center;
   background-size:cover;   
   -webkit-background-size:cover;
-  @media only screen and (max-width: 600px) {
-    background-attachment: scroll;
-  }
-
+  
 }
 
 #landing{
@@ -216,10 +213,12 @@ body{
   background-position: center;
   background-size:cover;   
   -webkit-background-size:cover;
-  @media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .containerLanding, .containerHex{
     background-attachment: scroll;
   }
-
 }
 
 #hexagons{
