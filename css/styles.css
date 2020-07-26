@@ -176,6 +176,8 @@ body{
   background-position: center;
   background-size:cover;   
   -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   
 }
 
@@ -213,14 +215,43 @@ body{
   background-position: center;
   background-size:cover;   
   -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /* @media only screen and (max-width: 600px) { */
-@supports (-webkit-touch-callout: none) {
-  .containerLanding, .containerHex{
-    background-attachment: scroll;
+  @supports (-webkit-touch-callout: none) {
+    .containerLanding, .containerHex{
+      background-attachment: scroll;
+    }
   }
-}
+
+/* https://github.com/thesved/fixed-cover-background */
+.containerLanding:after, .containerHex:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      /* height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background-color:#1d1d1d; 
+      background-color: var(--navbar-bg-color); 
+      background:linear-gradient(rgba(4, 33, 95, 0.5), rgba(0, 0, 0, 0.9)), url('../resources/bg1.jpg');
+      background: var(--bg-gradient-1); 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    .containerBio:after{
+  background-color:#000;
+  background-color: var(--bg-color);
+  margin: 50px;
+
+      
+    }
 
 #hexagons{
   padding: auto;
